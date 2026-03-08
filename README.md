@@ -119,23 +119,24 @@ docker run -p 8000:8000 trademarkia-semantic-search
 
 Then open:
 - `http://127.0.0.1:8000/docs`
-1️⃣ Sending a Query Request (POST /query)
-Submitting a natural language query to the semantic search API using the POST /query endpoint.
+1. Sending a Query (POST /query)
 
-<img width="1894" height="819" alt="image" src="https://github.com/user-attachments/assets/e5252b05-dabb-4e50-b7f5-e71dba25afb7" />
-2️⃣ Receiving Server Response
+Submitting a natural language query to the semantic search API.
+
+<img width="1894" height="819" alt="Sending query request" src="https://github.com/user-attachments/assets/e5252b05-dabb-4e50-b7f5-e71dba25afb7" />
+2. Server Response
+
 The server processes the query and returns the most relevant documents along with similarity scores and cluster information.
 
-<img width="1812" height="859" alt="image" src="https://github.com/user-attachments/assets/98d23c13-84b8-49dd-a54c-307f06f087e4" />
-3️⃣ Viewing Cache Statistics
-Retrieving cache statistics using the GET /cache/stats endpoint to monitor cache entries, hits, and misses.
+<img width="1812" height="859" alt="Server response with semantic results" src="https://github.com/user-attachments/assets/98d23c13-84b8-49dd-a54c-307f06f087e4" />
+3. Viewing Cache Statistics (GET /cache/stats)
 
-<img width="1817" height="853" alt="image" src="https://github.com/user-attachments/assets/7e0c49b1-fd08-44fe-a5a5-f69b7033d24e" />
-4️⃣ Clearing the Cache
-Resetting the semantic cache using the DELETE /cache endpoint to remove all stored queries and reset cache metrics.
-<img width="1839" height="837" alt="image" src="https://github.com/user-attachments/assets/9375e30e-3dbd-49f1-a9c1-b3b6528383ed" />
+Retrieving cache statistics to monitor cache entries, hits, misses, and overall hit rate.
 
+<img width="1817" height="853" alt="Cache statistics endpoint" src="https://github.com/user-attachments/assets/7e0c49b1-fd08-44fe-a5a5-f69b7033d24e" />
+4. Clearing the Cache (DELETE /cache)
 
+Resetting the semantic cache and clearing all stored queries.
 
-
+<img width="1839" height="837" alt="Cache clear endpoint" src="https://github.com/user-attachments/assets/9375e30e-3dbd-49f1-a9c1-b3b6528383ed" />
 
