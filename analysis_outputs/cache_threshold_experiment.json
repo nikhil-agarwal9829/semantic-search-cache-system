@@ -1,0 +1,54 @@
+{
+  "n_base_documents_used": 450,
+  "queries_per_document": 3,
+  "total_queries": 1350,
+  "thresholds_tested": [
+    0.7,
+    0.8,
+    0.85,
+    0.9,
+    0.95
+  ],
+  "results": [
+    {
+      "threshold": 0.7,
+      "total_queries": 1350,
+      "hit_count": 673,
+      "miss_count": 677,
+      "hit_rate": 0.4985185185185185,
+      "final_cache_entries": 677
+    },
+    {
+      "threshold": 0.8,
+      "total_queries": 1350,
+      "hit_count": 550,
+      "miss_count": 800,
+      "hit_rate": 0.4074074074074074,
+      "final_cache_entries": 800
+    },
+    {
+      "threshold": 0.85,
+      "total_queries": 1350,
+      "hit_count": 497,
+      "miss_count": 853,
+      "hit_rate": 0.36814814814814817,
+      "final_cache_entries": 853
+    },
+    {
+      "threshold": 0.9,
+      "total_queries": 1350,
+      "hit_count": 429,
+      "miss_count": 921,
+      "hit_rate": 0.31777777777777777,
+      "final_cache_entries": 921
+    },
+    {
+      "threshold": 0.95,
+      "total_queries": 1350,
+      "hit_count": 340,
+      "miss_count": 1010,
+      "hit_rate": 0.2518518518518518,
+      "final_cache_entries": 1010
+    }
+  ]
+}

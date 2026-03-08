@@ -1,0 +1,40 @@
+Step 0 - Dataset unpacked and inspected
+- We extracted the original 20 Newsgroups archive into the folder `twenty+newsgroups/20_newsgroups`.
+- Each subfolder (e.g. `alt.atheism`, `comp.graphics`, `rec.autos`) contains many raw text files, one news post per file.
+- The raw files include full email/news headers and quoted text; we will later clean this before creating embeddings so that the model focuses on the actual message content.
+
+Step 1 - Project and environment setup (current step)
+- Goal: create a clear project structure and Python environment so all later scripts and the FastAPI service can run consistently on any machine.
+- Result: a `requirements.txt` file listing the libraries we use (FastAPI, sentence-transformers, scikit-learn, etc.), a local `.venv` virtual environment, and base folders `app/`, `scripts/`, and `data/` so running the service is just: activate venv → install requirements → run scripts → start uvicorn.
+
+Step 2 - Raw document collection and cleaning
+- What we did: added `scripts/prepare_data.py` which walks the original `20_newsgroups` folders, reads every file, strips email-style headers and quoted reply lines, and skips extremely short texts.
+- Why: headers and quotes are mostly metadata or repeated context that would dominate the vocabulary without adding much meaning about the actual topic, so removing them makes the embeddings focus on the core message.
+- Result: a single `data/documents.jsonl` file, where each line is one cleaned document with its id, original newsgroup label, file path, and text, ready for embedding and clustering in the next steps.
+
+Step 3 - Embeddings, clustering, and vector index (prepare_data.py extended)
+- What we did: extended `scripts/prepare_data.py` with a `main()` pipeline that (a) embeds all cleaned documents using `all-MiniLM-L6-v2` sentence transformer, (b) selects the number of Gaussian Mixture components using BIC on a subset, (c) fits a full GMM on all embeddings, and (d) builds a cosine-based `NearestNeighbors` index as a lightweight vector database.
+- Why: embeddings turn each document into a numeric vector that captures meaning; the GMM gives soft cluster memberships (probabilities over topics) instead of a single hard label; the NearestNeighbors index lets us quickly retrieve the most similar documents for any future query.
+- Result: the `data/` folder now holds `documents.jsonl`, `doc_index.json` (ids + labels in embedding order), `embeddings.npy`, a persisted GMM model with its model-selection log, and a saved nearest-neighbour index that the FastAPI service will load at startup.
+
+Step 4 - FastAPI service and semantic cache
+- What we did: created the `app/` package with `core.py` to load all saved models and run semantic search, `cache.py` with a custom cluster-aware semantic cache, `models.py` with Pydantic request/response schemas, and `main.py` which defines the FastAPI app and the `/query`, `/cache/stats`, and `/cache` endpoints.
+- Why: this turns the offline semantic search stack into a live HTTP API; the semantic cache groups entries by dominant GMM cluster and uses cosine similarity with a tunable threshold to decide when two differently worded queries are “close enough” to reuse results.
+- Result: you can now start the service with `uvicorn app.main:app --reload` (after activating the venv), send POST requests to `/query` to get semantic search results and observe cache hits/misses, and inspect or reset cache behaviour via `/cache/stats` and `DELETE /cache`.
+
+Step 5 - Dockerisation (optional deployment)
+- What we did: added a `Dockerfile` that uses `python:3.11-slim` as a base image, installs the dependencies from `requirements.txt`, copies the project code (including the precomputed `data/` artifacts), exposes port 8000, and runs the FastAPI app with Uvicorn.
+- Why: this lets anyone run the service in a container with a single `docker build` + `docker run` command, without needing to set up a Python environment manually, which is closer to a production-style deployment.
+- Result: you can containerise the app with `docker build -t trademarkia-semantic-search .` and run it with `docker run -p 8000:8000 trademarkia-semantic-search`, then hit the same `/docs` and `/query` endpoints on `http://127.0.0.1:8000` from outside the container.
+
+Step 6 - Evidence and write-up (analysis + README)
+- What we did: added `README.md` (how to run + API usage), `analysis.md` (design decisions + evidence), and scripts under `scripts/` to generate repeatable analysis outputs (`scripts/analyze.py` and `scripts/cache_threshold_experiment.py`).
+- Why: the assignment asks not only for working code, but also for justification and evidence that the clusters and cache behavior are meaningful.
+- Result: running the analysis scripts produces `analysis_outputs/cluster_summary.json` and `analysis_outputs/cache_threshold_experiment.json`, and the write-up in `analysis.md` summarizes key findings (cluster themes, cluster counts, and how the cache threshold changes behavior).
+
+
+
+
+
+
+

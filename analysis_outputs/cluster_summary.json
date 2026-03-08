@@ -1,0 +1,1150 @@
+{
+  "n_documents": 19868,
+  "embedding_shape": [
+    19868,
+    384
+  ],
+  "n_clusters": 10,
+  "cluster_sizes": {
+    "0": 1640,
+    "1": 2246,
+    "2": 2471,
+    "3": 2458,
+    "4": 2371,
+    "5": 2314,
+    "6": 1745,
+    "7": 1602,
+    "8": 862,
+    "9": 2159
+  },
+  "top_terms_by_cluster": {
+    "0": [
+      "car",
+      "bike",
+      "com",
+      "edu",
+      "dod",
+      "writes",
+      "article",
+      "cars",
+      "engine",
+      "like",
+      "just",
+      "bmw"
+    ],
+    "1": [
+      "edu",
+      "writes",
+      "com",
+      "article",
+      "like",
+      "don",
+      "know",
+      "just",
+      "time",
+      "use",
+      "space",
+      "does"
+    ],
+    "2": [
+      "people",
+      "edu",
+      "com",
+      "government",
+      "writes",
+      "article",
+      "israel",
+      "gun",
+      "don",
+      "fbi",
+      "just",
+      "right"
+    ],
+    "3": [
+      "edu",
+      "com",
+      "writes",
+      "article",
+      "don",
+      "people",
+      "just",
+      "like",
+      "know",
+      "cs",
+      "ca",
+      "think"
+    ],
+    "4": [
+      "drive",
+      "card",
+      "edu",
+      "scsi",
+      "windows",
+      "thanks",
+      "com",
+      "mac",
+      "disk",
+      "dos",
+      "use",
+      "problem"
+    ],
+    "5": [
+      "windows",
+      "file",
+      "thanks",
+      "program",
+      "window",
+      "edu",
+      "files",
+      "use",
+      "graphics",
+      "help",
+      "know",
+      "com"
+    ],
+    "6": [
+      "game",
+      "team",
+      "edu",
+      "games",
+      "year",
+      "hockey",
+      "players",
+      "baseball",
+      "writes",
+      "season",
+      "ca",
+      "article"
+    ],
+    "7": [
+      "sale",
+      "edu",
+      "00",
+      "mail",
+      "price",
+      "thanks",
+      "offer",
+      "shipping",
+      "new",
+      "email",
+      "interested",
+      "sell"
+    ],
+    "8": [
+      "key",
+      "encryption",
+      "clipper",
+      "chip",
+      "government",
+      "keys",
+      "com",
+      "nsa",
+      "escrow",
+      "public",
+      "edu",
+      "use"
+    ],
+    "9": [
+      "god",
+      "jesus",
+      "edu",
+      "people",
+      "bible",
+      "writes",
+      "christian",
+      "church",
+      "believe",
+      "com",
+      "don",
+      "article"
+    ]
+  },
+  "confident_examples_by_cluster": {
+    "0": [
+      {
+        "id": "alt.atheism/51190",
+        "label": "alt.atheism",
+        "max_prob": 1.0,
+        "snippet": "In article <930404.111651.1K0.rusnews.w165w@mantis.co.uk>, mathew@mantis.co.uk (mathew) writes: |> In article <1993Apr2.065230.18676@blaze.cs.jhu.edu> |> arromdee@jyusenkyou.cs.jhu.edu (Ken Arromdee) writes: |> >The \"automobile system\" kills non-driving passengers, not to mention"
+      },
+      {
+        "id": "talk.religion.misc/84317",
+        "label": "talk.religion.misc",
+        "max_prob": 1.0,
+        "snippet": "In article <1993Apr21.045548.17418@news.cs.brandeis.edu>, st922957@pip.cc.brandeis.edu (Arnold Schwarzenweisengreenbluenbraunenburger) says: Quite so. All automobiles should be banned immediately."
+      },
+      {
+        "id": "talk.religion.misc/84113",
+        "label": "talk.religion.misc",
+        "max_prob": 1.0,
+        "snippet": "In article <C5stEL.K0E@boi.hp.com> dianem@boi.hp.com (Diane Mathews) writes: ... or consider the thousands in Central America killed by those brave CIA/NSC sponsored \"Freedom Fighters.\" Thus far, Slick Willie is a piker. spl -- Steve Lamont, SciViGuy -- (619) 534-7968 -- spl@szec"
+      },
+      {
+        "id": "talk.religion.misc/84097",
+        "label": "talk.religion.misc",
+        "max_prob": 1.0,
+        "snippet": "In article <24APR199302290235@utarlg.uta.edu>, stephen (b645zaw@utarlg.uta.edu) wrote: Baloney. Either the programmer or the people who decided to let their actions be governed by the program are clearly at fault. If you neglect to do maintenance on your car, and the steering goe"
+      },
+      {
+        "id": "talk.religion.misc/83930",
+        "label": "talk.religion.misc",
+        "max_prob": 1.0,
+        "snippet": "In article <C5u5nv.JGs@ncratl.AtlantaGA.NCR.COM> mwilson@ncratl.AtlantaGA.NCR.COM (Mark Wilson) writes: ... only the aluminum baseball bat. Clearly a crime against the sport. spl -- Steve Lamont, SciViGuy -- (619) 534-7968 -- spl@szechuan.ucsd.edu San Diego Microscopy and Imaging"
+      }
+    ],
+    "1": [
+      {
+        "id": "alt.atheism/51128",
+        "label": "alt.atheism",
+        "max_prob": 1.0,
+        "snippet": "sandvik@newton.apple.com (Kent Sandvik) writes: But, you wouldn't know what red *was*, and you certainly couldn't judge it subjectively. And, objectivity is not applicable, since you are wanting to discuss the merits of red. keith"
+      },
+      {
+        "id": "talk.religion.misc/84565",
+        "label": "talk.religion.misc",
+        "max_prob": 1.0,
+        "snippet": "In article <1993Apr23.111105.7703@ifi.uio.no>, joakimr@ifi.uio.no (Joakim Ruud) writes: Well, let me see if I can explain it. It's similar to collecting coins, or stamps, or campaign buttons, or coke bottles, or juke boxes, or model trains, or just about anything else that is col"
+      },
+      {
+        "id": "talk.religion.misc/84449",
+        "label": "talk.religion.misc",
+        "max_prob": 1.0,
+        "snippet": "The following partial summary of a Theory of the Universe includes a little-known description of the CREATION of our Solar System: LARSONIAN Astronomy and Physics Orthodox physicists, astronomers, and astrophysicists CLAIM to be looking for a \"Unified Field Theory\" in which all o"
+      },
+      {
+        "id": "talk.religion.misc/84354",
+        "label": "talk.religion.misc",
+        "max_prob": 1.0,
+        "snippet": "jasons@atlastele.com (Jason Smith) writes: ... Does it matter that the study (yes, singular) that showed LSD causing birth defects also holds true for aspirin? Does it matter that this study is flat-out wrong, and LSD does not give you a greater risk of having children with birth"
+      },
+      {
+        "id": "talk.religion.misc/84350",
+        "label": "talk.religion.misc",
+        "max_prob": 1.0,
+        "snippet": "In <30192@ursa.bear.com> halat@pooh.bears (Jim Halat) writes: But neither of them claimed to have experimental evidence that proved them right. In a similar vein, there is as yet no experimental evidence for supersymmetric particles; so some physicists believe in them, and some d"
+      }
+    ],
+    "2": [
+      {
+        "id": "alt.atheism/51121",
+        "label": "alt.atheism",
+        "max_prob": 1.0,
+        "snippet": "In article <N4HY.93Apr5120934@harder.ccr-p.ida.org>, n4hy@harder.ccr-p.ida.org (Bob McGwier) writes: |> [1] HOWEVER, I hate economic terrorism and political correctness |> worse than I hate this policy. |> [2] A more effective approach is to stop donating |> to ANY organizating t"
+      },
+      {
+        "id": "talk.religion.misc/84566",
+        "label": "talk.religion.misc",
+        "max_prob": 1.0,
+        "snippet": "In article <930426.140835.4f1.rusnews.w165w@mantis.co.uk> mathew <mathew@mantis.co.uk> writes: Indeed. Successful terrorism is called *revolution* and is admired by history. Unsuccessful terrorism is just lowly, cowardly terroism. Just an observation, Phil Trodwell *** This space"
+      },
+      {
+        "id": "talk.religion.misc/84555",
+        "label": "talk.religion.misc",
+        "max_prob": 1.0,
+        "snippet": "In article <1r7os6$hil@agate.berkeley.edu> isaackuo@spam.berkeley.edu (Isaac Kuo) writes: This morning on CNN (tues April 27), Texas Cops say Arson is suspected because of two falsh points. CNN also stated that _all_ surviors claim the fires are FBI set. Your argument are made-up"
+      },
+      {
+        "id": "talk.religion.misc/84506",
+        "label": "talk.religion.misc",
+        "max_prob": 1.0,
+        "snippet": "In article <lefty-260493134641@lefty.apple.com>, lefty@apple.com (Lefty) writes: Wrong about what? I think they are correct in thinking that a well-placed bomb or six would get headlines, but I think they are wrong if they think that you can set off bombs and still be a Buddhist."
+      },
+      {
+        "id": "talk.religion.misc/84452",
+        "label": "talk.religion.misc",
+        "max_prob": 1.0,
+        "snippet": "In article <1f2P02UA40zB01@JUTS.ccc.amdahl.com> agr00@JUTS.ccc.amdahl.com (Anthony G Rose) writes: I recently watched a an episode of \"The Old West\" a TV show on the Discovery Channel (or perhaps the A&E Network), the one hosted by Kenny Rogers. This episode was all about the Mor"
+      }
+    ],
+    "3": [
+      {
+        "id": "alt.atheism/51123",
+        "label": "alt.atheism",
+        "max_prob": 1.0,
+        "snippet": "arromdee@jyusenkyou.cs.jhu.edu (Ken Arromdee) writes: No it didn't. The motto has been on various coins since the Civil War. It was just required to be on *all* currency in the 50's. keith"
+      },
+      {
+        "id": "talk.religion.misc/84570",
+        "label": "talk.religion.misc",
+        "max_prob": 1.0,
+        "snippet": "In article <C64H4w.BFH@darkside.osrhe.uoknor.edu> bil@okcforum.osrhe.edu (Bill Conner) writes: You are in the village. Many happy returns! Be seeing you! [your ways and means get reign of the tek!]"
+      },
+      {
+        "id": "talk.religion.misc/84562",
+        "label": "talk.religion.misc",
+        "max_prob": 1.0,
+        "snippet": "muttiah@thistle.ecn.purdue.edu (Ranjan S Muttiah) writes: i'm confused. could you restate what yer saying in \"those who follow the mainstream pretend\" and \"act based on the very same impulses\"?"
+      },
+      {
+        "id": "talk.religion.misc/84559",
+        "label": "talk.religion.misc",
+        "max_prob": 1.0,
+        "snippet": "On 26-Apr-93 in Re: What part of \"No\" don't.. user Steve Novak@advtech.uswe writes: Please provide evidence that having a moment of silence for a student who died tragically costs taxpayers money."
+      },
+      {
+        "id": "talk.religion.misc/84511",
+        "label": "talk.religion.misc",
+        "max_prob": 1.0,
+        "snippet": "In article <26APR199315363120@rigel.tamu.edu> mst4298@rigel.tamu.edu (Mitchell S Todd) writes: If, if, if.... Anyway, the question was if the gun was identifiable, which it is. -Tim _________________________________________________________________________ | | | | Timothy J. Brent"
+      }
+    ],
+    "4": [
+      {
+        "id": "alt.atheism/53143",
+        "label": "alt.atheism",
+        "max_prob": 1.0,
+        "snippet": "sandvik@newton.apple.com (Kent Sandvik) writes: Madmen are mad. Do we try to explain the output from a broken computer? I think not. keith"
+      },
+      {
+        "id": "talk.politics.mideast/76492",
+        "label": "talk.politics.mideast",
+        "max_prob": 1.0,
+        "snippet": "Hey Serdar, What are you retarded? ******************************************************************** System: fourd.com Phone: 617-494-0565 Cute quote: Being a computer means never having to say you're sorry ********************************************************************"
+      },
+      {
+        "id": "talk.politics.mideast/76491",
+        "label": "talk.politics.mideast",
+        "max_prob": 1.0,
+        "snippet": "You are such a LOSER!!!! ******************************************************************** System: fourd.com Phone: 617-494-0565 Cute quote: Being a computer means never having to say you're sorry ********************************************************************"
+      },
+      {
+        "id": "comp.graphics/38266",
+        "label": "comp.graphics",
+        "max_prob": 1.0,
+        "snippet": "I am looking for EISA or VESA local bus graphic cards that support at least 1024x786x24 resolution. I know Matrox has one, but it is very expensive. All the other cards I know of, that support that resoultion, are striaght ISA. Also are there any X servers for a unix PC that supp"
+      },
+      {
+        "id": "comp.graphics/38277",
+        "label": "comp.graphics",
+        "max_prob": 1.0,
+        "snippet": "In article <115072@bu.edu> kiki@PROBLEM_WITH_INEWS_GATEWAY_FILE (Keith Baccki) writes: I agree with you about the upgrade path; but I think I was fair. The original posting complained (1) about SGI coming out with newer (and better) architectures and not having an upgrade path fr"
+      }
+    ],
+    "5": [
+      {
+        "id": "alt.atheism/51244",
+        "label": "alt.atheism",
+        "max_prob": 1.0,
+        "snippet": "mccullou@snake2.cs.wisc.edu (Mark McCullough) writes: Tail-recursive functions in Scheme are at least as efficient as iterative loops. Anyone who doesn't program in assembler will have heard of optimizing compilers. mathew"
+      },
+      {
+        "id": "talk.politics.mideast/76038",
+        "label": "talk.politics.mideast",
+        "max_prob": 1.0,
+        "snippet": "JLE the Great writes: [JLE] Q: How many occupying israeli soldiers (terrorists) does it [JLE] take to kill a 5 year old native child? [JLE] A: Four [JLE] Two fasten his arms, one shoots in the face, [JLE] and one writes up a false report. A couple of months ago JLE wrote a terrib"
+      },
+      {
+        "id": "talk.politics.guns/54430",
+        "label": "talk.politics.guns",
+        "max_prob": 1.0,
+        "snippet": "In article <1qk3jm$9sh@transfer.stratus.com> cdt@sw.stratus.com (C. D. Tavares) writes: [ ... ] Here'a a copy, cdt: ------------------------------------------------------------------------ ------------------------------------------------------------------------"
+      },
+      {
+        "id": "talk.politics.guns/54380",
+        "label": "talk.politics.guns",
+        "max_prob": 1.0,
+        "snippet": "begin 644 outOfControl.gif M1TE&.#=AN@*6`?```````/___RP`````N@*6`0`\"_@Q@J)O-[XQ4#IYX::Z3 M9PUB4ZAY9`<NY59*:/!2L0C-J^W>2(>?[-C3Q70,6A`H9)&2OA=*ELQ)?RW+ MP3HT5F%1RQ%INGZNVMF4&WR0?4+>\"OO!,-7(-SO,K#^I=2_<=J?4,QB(`X-V MN)-X>+;C1^B&UI7C&#E)=7E&F)?9\"?9X`OEH.77CE(*I!5KI^08H-I8PMC9: M26HW"
+      },
+      {
+        "id": "soc.religion.christian/21750",
+        "label": "soc.religion.christian",
+        "max_prob": 1.0,
+        "snippet": "Hi, What presentation package would you recommend for a Bible teacher? I've checked out Harwards Graphics for Windows. I think its more suitable for sales people than for preachers or Bible teachers to present an outline of a message. I'm looking for one that: * is great for over"
+      }
+    ],
+    "6": [
+      {
+        "id": "comp.sys.mac.hardware/51989",
+        "label": "comp.sys.mac.hardware",
+        "max_prob": 1.0,
+        "snippet": "In article <1r1d2r$baf@umcc.umcc.umich.edu> dlc@umcc.umcc.umich.edu (David Claytor) writes: My CD300 (external, just arrived) has 2-8 plus Cinderella & Game Demo. --Pinghua ----------------------------------------------------------------------- Pinghua Young, Department of Econom"
+      },
+      {
+        "id": "rec.sport.baseball/102588",
+        "label": "rec.sport.baseball",
+        "max_prob": 1.0,
+        "snippet": "Hi all, I've been locked in a small closet chained to a lab bench for the last week or two without access to really important information. I saw the 3.5 million shoulder back on the DL--How long is he out for (i.e. How many millions/inning will he get this year?) Nothing personal"
+      },
+      {
+        "id": "rec.sport.baseball/102590",
+        "label": "rec.sport.baseball",
+        "max_prob": 1.0,
+        "snippet": "In article <ekdfc.14.0@ttacs1.ttu.edu>, ekdfc@ttacs1.ttu.edu (David Coons) writes: Last weeks Sports Illustrated has a couple of big articles on the designated hitter. It is the 1993 baseball issue. Th is weeks Sports Illustrated"
+      },
+      {
+        "id": "rec.sport.baseball/102591",
+        "label": "rec.sport.baseball",
+        "max_prob": 1.0,
+        "snippet": "Philadelphia at Chicago: Teams tied for 1st after Sunday Dick Redding battled Chet Brewer in the first game of a dramatic four game series. One Friday, one Saturday, and a good-old Sunday doubleheader. \"What could be better,\" declared Ernie Banks. Perhaps the fact that the Cubs a"
+      },
+      {
+        "id": "rec.sport.baseball/102593",
+        "label": "rec.sport.baseball",
+        "max_prob": 1.0,
+        "snippet": "Could somebody please tell me if there is a Dodgers newsletter on the Net, and if so how to subscribe? Thanks, Joel"
+      }
+    ],
+    "7": [
+      {
+        "id": "alt.atheism/53087",
+        "label": "alt.atheism",
+        "max_prob": 1.0,
+        "snippet": "I'm sold! Where do I sign up? Brian /-|-\\ The next book: \"Charles Manson: Lord, Lunatic, or Liar\""
+      },
+      {
+        "id": "talk.religion.misc/83469",
+        "label": "talk.religion.misc",
+        "max_prob": 1.0,
+        "snippet": "In article <1qjbn0$na4@horus.ap.mchp.sni.de> frank@D012S658.uucp (Frank O'Dwyer) writes: Well, that would depend on how much we wanted the US and how much we wanted the $1, wouldn't it? -Ekr -- Eric Rescorla ekr@eitech.com Would you buy used code from this man?"
+      },
+      {
+        "id": "comp.graphics/38548",
+        "label": "comp.graphics",
+        "max_prob": 1.0,
+        "snippet": "I sent off for my copy today... Snail Mail. Hope to get it back in about ten days. (Impulse said \"a week\".) I hope it's as good as they claim... Jim Nobles (Hope I have what it takes to use it... :>)"
+      },
+      {
+        "id": "comp.graphics/38569",
+        "label": "comp.graphics",
+        "max_prob": 1.0,
+        "snippet": "Are there significant differences between V2.01 and V2.00 ? Thank you for helping Marc. -- _/_/ _/_/ e-mail : Marc.Fombaron@ufrima.imag.fr _/ _/_/ _/ _/ _/ _/ _/ _/ _/_/_/ _/_/_/_/ _/ _/_/_/_/ Marc Fombaron. _/ _/ _/ _/ _/ _/ _/ _/ _/ _/ _/ Grenoble."
+      },
+      {
+        "id": "comp.graphics/38594",
+        "label": "comp.graphics",
+        "max_prob": 1.0,
+        "snippet": "I am looking for Super 8mm Projector with SOUNDS. If anybody out there has one for sale, send email with the name of brand, condition of the projector, and price for sale to kimd@rpi.edu (IT MUST HAVE SOUND CAPABILITY) Danny kimd@rpi.edu"
+      }
+    ],
+    "8": [
+      {
+        "id": "talk.religion.misc/84554",
+        "label": "talk.religion.misc",
+        "max_prob": 1.0,
+        "snippet": "Mark McCullough (mccullou@snake2.cs.wisc.edu) wrote: : >But if entertainment (company) sell computer programs saying they are virus : >safe. Doesn`t they have burden of proof that viruses don`t exist in their : >floppies ? : I don't think so. The assumption is there. If it turns "
+      },
+      {
+        "id": "talk.religion.misc/84433",
+        "label": "talk.religion.misc",
+        "max_prob": 1.0,
+        "snippet": "In article <1993Apr26.142158.11620@ousrvr.oulu.fi> ktikkane@phoenix.oulu.fi (Kari Tikkanen) writes: I don't think so. The assumption is there. If it turns out that their software has a virus, then it is up to you to prove that fact to a court to get any damages. You are theoretic"
+      },
+      {
+        "id": "talk.religion.misc/84432",
+        "label": "talk.religion.misc",
+        "max_prob": 1.0,
+        "snippet": "st922957@pip.cc.brandeis.edu writes: When the right to freedom of speech was \"invented\", all we had to worry about was printing presses and live speech. Now, we have to worry about violent movies influencing the young and tv beaming pornography into homes. Do you really believe w"
+      },
+      {
+        "id": "talk.religion.misc/83742",
+        "label": "talk.religion.misc",
+        "max_prob": 1.0,
+        "snippet": "In a previous article, mechalas@gn.ecn.purdue.edu (John P. Mechalas) says: Yeah, we may have to wait till hell freezes over. If they had listening devices in place, one would think they would have audiotapes as a result. Why, when officials are asked about what those devices pick"
+      },
+      {
+        "id": "talk.religion.misc/83521",
+        "label": "talk.religion.misc",
+        "max_prob": 1.0,
+        "snippet": "In article <1qk73q$3fj@agate.berkeley.edu> dzkriz@ocf.berkeley.edu (Dennis Kriz) writes: There are \"basic services\" and there are \"optional services\", Dennis. Call waiting is an optional service, but having the number \"3\" work on one's phone is a basic service. Just because some "
+      }
+    ],
+    "9": [
+      {
+        "id": "alt.atheism/49960",
+        "label": "alt.atheism",
+        "max_prob": 1.0,
+        "snippet": "Archive-name: atheism/resources Alt-atheism-archive-name: resources Last-modified: 11 December 1992 Version: 1.0 Atheist Resources Addresses of Atheist Organizations USA FREEDOM FROM RELIGION FOUNDATION Darwin fish bumper stickers and assorted other atheist paraphernalia are avai"
+      },
+      {
+        "id": "talk.religion.misc/84569",
+        "label": "talk.religion.misc",
+        "max_prob": 1.0,
+        "snippet": "In article <1993Apr26.231845.13843@digi.lonestar.org> qpalo@digi.lonestar.org (Gerry Palo) For my money the primary danger of anti-cult groups is that they are every bit as wacky as the groups they oppose and that by and large they have no compunctions about printing lies, half-t"
+      },
+      {
+        "id": "talk.religion.misc/84568",
+        "label": "talk.religion.misc",
+        "max_prob": 1.0,
+        "snippet": "In article <1rc1f3INN7rl@emx.cc.utexas.edu> bill@emx.cc.utexas.edu (Bill Jefferys) writes: That's also how Christianity came to be. The immediate return of Jesus was expected; when it didn't happen, they formed their own church."
+      },
+      {
+        "id": "talk.religion.misc/84567",
+        "label": "talk.religion.misc",
+        "max_prob": 1.0,
+        "snippet": "In article <1993Apr27.073723.18577@csis.dit.csiro.au> prl@csis.dit.csiro.au (Peter Lamb) writes: [ out-of context quotes from Mr. King deleted, along with the context, thoughtfully provided by Mr. Lamb] John: Isn't there one of the ten commandments that says something like \"you s"
+      },
+      {
+        "id": "talk.religion.misc/84564",
+        "label": "talk.religion.misc",
+        "max_prob": 1.0,
+        "snippet": "pboxrud@magnus.acs.ohio-state.edu (Paul D Boxrud) writes: just a point, i suppose, if open mind means believing anything can be true or we can't for sure know what is definitely true, i'm happy to not be open minded. if, however, open mindedness means being respectful and toleran"
+      }
+    ]
+  },
+  "uncertain_boundary_examples": {
+    "by_entropy": [
+      {
+        "id": "sci.space/61238",
+        "label": "sci.space",
+        "dominant_cluster": 9,
+        "max_prob": 0.9519380331039429,
+        "entropy": 0.1927972435951233,
+        "top_clusters": [
+          {
+            "cluster": 9,
+            "prob": 0.9519380331039429
+          },
+          {
+            "cluster": 3,
+            "prob": 0.048075951635837555
+          },
+          {
+            "cluster": 1,
+            "prob": 3.6858263626731123e-34
+          }
+        ],
+        "snippet": "In article <pgf.735606045@srl02.cacs.usl.edu>, pgf@srl02.cacs.usl.edu (Phil G. Fraering) writes... Actually, the idea, like most good ideas, comes from Jules Verne, not _The Gods Must Be Crazy._ In one of his lesser known books (I can't remember which one right now), the protagon"
+      },
+      {
+        "id": "talk.religion.misc/83913",
+        "label": "talk.religion.misc",
+        "dominant_cluster": 9,
+        "max_prob": 0.9922784566879272,
+        "entropy": 0.04515363648533821,
+        "top_clusters": [
+          {
+            "cluster": 9,
+            "prob": 0.9922784566879272
+          },
+          {
+            "cluster": 3,
+            "prob": 0.007697326131165028
+          },
+          {
+            "cluster": 8,
+            "prob": 0.0
+          }
+        ],
+        "snippet": "sandvik@newton.apple.com (Kent Sandvik) writes: ... I had an ehum, interesting experience with the Rosicrucians, or at least Rosicrucians of some sort last Sunday. They had advertised that they were holding a lecture titled The Graal of the King -- the room of the heart (which rh"
+      },
+      {
+        "id": "comp.graphics/38658",
+        "label": "comp.graphics",
+        "dominant_cluster": 5,
+        "max_prob": 0.9950076341629028,
+        "entropy": 0.03147754445672035,
+        "top_clusters": [
+          {
+            "cluster": 5,
+            "prob": 0.9950076341629028
+          },
+          {
+            "cluster": 3,
+            "prob": 0.005001413635909557
+          },
+          {
+            "cluster": 8,
+            "prob": 0.0
+          }
+        ],
+        "snippet": "SIGKIDS CALL FOR PARTICIPATION SIGKids Research Showcase is where learning is hip. Pushing the edge in education, computer graphics, and new technologies, the SIGKids Research Showcase will provide SIGGRAPH's attendees with the latest in applying computer technology to form state"
+      },
+      {
+        "id": "talk.politics.misc/178934",
+        "label": "talk.politics.misc",
+        "dominant_cluster": 3,
+        "max_prob": 0.9955543875694275,
+        "entropy": 0.028388233855366707,
+        "top_clusters": [
+          {
+            "cluster": 3,
+            "prob": 0.9955543875694275
+          },
+          {
+            "cluster": 9,
+            "prob": 0.004417505115270615
+          },
+          {
+            "cluster": 2,
+            "prob": 4.2108105891003333e-10
+          }
+        ],
+        "snippet": "On 23 Apr 93 00:18:59 GMT, Clayton Cramer observed: : alyoung@kiwi.ucs.indiana.edu (amy lynn young-leith) writes: : # Can someone tell me why when Mr. Cramer spouts on about homosexuals, : # he only addresses homosexual men, and never, in any post I've read, : # addressed lesbian"
+      },
+      {
+        "id": "comp.graphics/39618",
+        "label": "comp.graphics",
+        "dominant_cluster": 5,
+        "max_prob": 0.9956151247024536,
+        "entropy": 0.02826821058988571,
+        "top_clusters": [
+          {
+            "cluster": 5,
+            "prob": 0.9956151247024536
+          },
+          {
+            "cluster": 4,
+            "prob": 0.004404044710099697
+          },
+          {
+            "cluster": 8,
+            "prob": 0.0
+          }
+        ],
+        "snippet": "Hello, the subject line says it all: I'm looking for a TGA file viewer for the ATI Ultra + card. It should support the true color modes, of course. If someone knows where to find one via FTP, please let me know. thanx Oliver Klimek"
+      },
+      {
+        "id": "comp.sys.ibm.pc.hardware/60876",
+        "label": "comp.sys.ibm.pc.hardware",
+        "dominant_cluster": 5,
+        "max_prob": 0.9970136880874634,
+        "entropy": 0.020308291539549828,
+        "top_clusters": [
+          {
+            "cluster": 5,
+            "prob": 0.9970136880874634
+          },
+          {
+            "cluster": 4,
+            "prob": 0.0029790163971483707
+          },
+          {
+            "cluster": 8,
+            "prob": 0.0
+          }
+        ],
+        "snippet": "I need to be able to cause a beep, but without using any interrupt routines, as I cannot use the BIOS. I believe that the PIC might have something to do with it, but I'm having troubles deciphering the information I have on it to figure out how to program it! I'm programming all "
+      },
+      {
+        "id": "sci.med/59595",
+        "label": "sci.med",
+        "dominant_cluster": 1,
+        "max_prob": 0.9973180890083313,
+        "entropy": 0.018659807741642,
+        "top_clusters": [
+          {
+            "cluster": 1,
+            "prob": 0.9973180890083313
+          },
+          {
+            "cluster": 3,
+            "prob": 0.00270251021720469
+          },
+          {
+            "cluster": 8,
+            "prob": 0.0
+          }
+        ],
+        "snippet": "In article <C6BotF.137@r-node.hub.org> taob@r-node.hub.org (Brian Tao) writes: Here we go again. ======================================================================== U UK K UNIVERSITY GARY W. GREGORY U UK K OF KENTUCKY GWGREG01@UKCC.UKY.EDU U UKKK ____________________________"
+      },
+      {
+        "id": "misc.forsale/76516",
+        "label": "misc.forsale",
+        "dominant_cluster": 4,
+        "max_prob": 0.9983534216880798,
+        "entropy": 0.012355352751910686,
+        "top_clusters": [
+          {
+            "cluster": 4,
+            "prob": 0.9983534216880798
+          },
+          {
+            "cluster": 7,
+            "prob": 0.0016756728291511536
+          },
+          {
+            "cluster": 5,
+            "prob": 2.599553594281671e-33
+          }
+        ],
+        "snippet": "FOR SALE: IBM-compatible XT personal computer (DOS) Brand: Acer Age: 4.5 years Specs: 640K RAM 20 meg hard drive 5 -1/4 floppy drive Color monitor 2400 baud USRobotics internal modem Bundled with loads of software: word processing, communications, spreadsheet, games. A good compu"
+      },
+      {
+        "id": "talk.politics.guns/54235",
+        "label": "talk.politics.guns",
+        "dominant_cluster": 7,
+        "max_prob": 0.9984143972396851,
+        "entropy": 0.011729303747415543,
+        "top_clusters": [
+          {
+            "cluster": 7,
+            "prob": 0.9984143972396851
+          },
+          {
+            "cluster": 3,
+            "prob": 0.0015714609762653708
+          },
+          {
+            "cluster": 2,
+            "prob": 5.845563941450232e-36
+          }
+        ],
+        "snippet": "In article <81930415084418/0005111312NA3EM@mcimail.com> 0005111312@mcimail.com (Peter Nesbitt) writes: . . . Are you sure about this? I'm currently looking at a copy of last Thursday's SF Chronicle and there is the typical one column Traders ad on page C7 in the Sports section. N"
+      },
+      {
+        "id": "comp.graphics/38436",
+        "label": "comp.graphics",
+        "dominant_cluster": 4,
+        "max_prob": 0.9987800717353821,
+        "entropy": 0.009252260439097881,
+        "top_clusters": [
+          {
+            "cluster": 4,
+            "prob": 0.9987800717353821
+          },
+          {
+            "cluster": 5,
+            "prob": 0.0011934631038457155
+          },
+          {
+            "cluster": 8,
+            "prob": 0.0
+          }
+        ],
+        "snippet": "In <1qlobb$p5a@tuegate.tue.nl> renew@blade.stack.urc.tue.nl (Rene Walter) writes: [Most info regarding dangers of reading from Floppy disks omitted] In all fairness, how many people do you know personally who read images from Floppy drives? I haven't tried it with JPEGs, but I do"
+      },
+      {
+        "id": "comp.graphics/38674",
+        "label": "comp.graphics",
+        "dominant_cluster": 4,
+        "max_prob": 0.9989019632339478,
+        "entropy": 0.008642846718430519,
+        "top_clusters": [
+          {
+            "cluster": 4,
+            "prob": 0.9989019632339478
+          },
+          {
+            "cluster": 5,
+            "prob": 0.0011089048348367214
+          },
+          {
+            "cluster": 8,
+            "prob": 0.0
+          }
+        ],
+        "snippet": "Hallo POV-Renderers ! I've got a BocaX3 Card. Now I try to get POV displaying True Colors while rendering. I've tried most of the options and UNIVESA-Driver but what happens isn't correct. Can anybody help me ?"
+      },
+      {
+        "id": "rec.motorcycles/103176",
+        "label": "rec.motorcycles",
+        "dominant_cluster": 3,
+        "max_prob": 0.998962938785553,
+        "entropy": 0.008257340639829636,
+        "top_clusters": [
+          {
+            "cluster": 3,
+            "prob": 0.998962938785553
+          },
+          {
+            "cluster": 0,
+            "prob": 0.0010532274609431624
+          },
+          {
+            "cluster": 1,
+            "prob": 1.9219183986203305e-38
+          }
+        ],
+        "snippet": "In article <C4zqEL.E9B@ms.uky.edu> amir@ms.uky.edu (Amir Sadr) writes: I'm not sure about the helmet but for chin questions you might want to write to a: Jay Leno c/o Tonight Show Burbank Calif. Good luck. =========================================================================="
+      },
+      {
+        "id": "talk.religion.misc/83642",
+        "label": "talk.religion.misc",
+        "dominant_cluster": 9,
+        "max_prob": 0.998962938785553,
+        "entropy": 0.00818317849189043,
+        "top_clusters": [
+          {
+            "cluster": 9,
+            "prob": 0.998962938785553
+          },
+          {
+            "cluster": 3,
+            "prob": 0.0010405759094282985
+          },
+          {
+            "cluster": 2,
+            "prob": 2.151979656857479e-37
+          }
+        ],
+        "snippet": "In article <79615@cup.portal.com> Thyagi@cup.portal.com (Thyagi Morgoth NagaSiva) writes: Up to this point, I was kinda hoping that this was a joke. Still, it would make a great premise for a bad syndicated TV show- \"These are the adventures of the Oriental Templars... dedicated "
+      },
+      {
+        "id": "misc.forsale/76449",
+        "label": "misc.forsale",
+        "dominant_cluster": 3,
+        "max_prob": 0.9990238547325134,
+        "entropy": 0.007763175293803215,
+        "top_clusters": [
+          {
+            "cluster": 3,
+            "prob": 0.9990238547325134
+          },
+          {
+            "cluster": 7,
+            "prob": 0.0009796808008104563
+          },
+          {
+            "cluster": 5,
+            "prob": 1.7992538878316847e-37
+          }
+        ],
+        "snippet": "We have an copy of the book, new, not read. $20 plus S/H. DC if you can pickup. (The book has over 1100 pages and is quite heavy.) Feng -- The opinions expressed are not necessarily those of the University of North Carolina at Chapel Hill, the Campus Office for Information Techno"
+      },
+      {
+        "id": "comp.sys.mac.hardware/51813",
+        "label": "comp.sys.mac.hardware",
+        "dominant_cluster": 0,
+        "max_prob": 0.9990238547325134,
+        "entropy": 0.007588510867208242,
+        "top_clusters": [
+          {
+            "cluster": 0,
+            "prob": 0.9990238547325134
+          },
+          {
+            "cluster": 4,
+            "prob": 0.0009502929751761258
+          },
+          {
+            "cluster": 8,
+            "prob": 0.0
+          }
+        ],
+        "snippet": "petere@tesla.mitre.org (Peter D. Engels) writes: You're correct, except that's Quadra 800 not Centris 800. -Hades"
+      }
+    ],
+    "by_low_max_prob": [
+      {
+        "id": "sci.space/61238",
+        "label": "sci.space",
+        "dominant_cluster": 9,
+        "max_prob": 0.9519380331039429,
+        "entropy": 0.1927972435951233,
+        "top_clusters": [
+          {
+            "cluster": 9,
+            "prob": 0.9519380331039429
+          },
+          {
+            "cluster": 3,
+            "prob": 0.048075951635837555
+          },
+          {
+            "cluster": 1,
+            "prob": 3.6858263626731123e-34
+          }
+        ],
+        "snippet": "In article <pgf.735606045@srl02.cacs.usl.edu>, pgf@srl02.cacs.usl.edu (Phil G. Fraering) writes... Actually, the idea, like most good ideas, comes from Jules Verne, not _The Gods Must Be Crazy._ In one of his lesser known books (I can't remember which one right now), the protagon"
+      },
+      {
+        "id": "talk.religion.misc/83913",
+        "label": "talk.religion.misc",
+        "dominant_cluster": 9,
+        "max_prob": 0.9922784566879272,
+        "entropy": 0.04515363648533821,
+        "top_clusters": [
+          {
+            "cluster": 9,
+            "prob": 0.9922784566879272
+          },
+          {
+            "cluster": 3,
+            "prob": 0.007697326131165028
+          },
+          {
+            "cluster": 8,
+            "prob": 0.0
+          }
+        ],
+        "snippet": "sandvik@newton.apple.com (Kent Sandvik) writes: ... I had an ehum, interesting experience with the Rosicrucians, or at least Rosicrucians of some sort last Sunday. They had advertised that they were holding a lecture titled The Graal of the King -- the room of the heart (which rh"
+      },
+      {
+        "id": "comp.graphics/38658",
+        "label": "comp.graphics",
+        "dominant_cluster": 5,
+        "max_prob": 0.9950076341629028,
+        "entropy": 0.03147754445672035,
+        "top_clusters": [
+          {
+            "cluster": 5,
+            "prob": 0.9950076341629028
+          },
+          {
+            "cluster": 3,
+            "prob": 0.005001413635909557
+          },
+          {
+            "cluster": 8,
+            "prob": 0.0
+          }
+        ],
+        "snippet": "SIGKIDS CALL FOR PARTICIPATION SIGKids Research Showcase is where learning is hip. Pushing the edge in education, computer graphics, and new technologies, the SIGKids Research Showcase will provide SIGGRAPH's attendees with the latest in applying computer technology to form state"
+      },
+      {
+        "id": "talk.politics.misc/178934",
+        "label": "talk.politics.misc",
+        "dominant_cluster": 3,
+        "max_prob": 0.9955543875694275,
+        "entropy": 0.028388233855366707,
+        "top_clusters": [
+          {
+            "cluster": 3,
+            "prob": 0.9955543875694275
+          },
+          {
+            "cluster": 9,
+            "prob": 0.004417505115270615
+          },
+          {
+            "cluster": 2,
+            "prob": 4.2108105891003333e-10
+          }
+        ],
+        "snippet": "On 23 Apr 93 00:18:59 GMT, Clayton Cramer observed: : alyoung@kiwi.ucs.indiana.edu (amy lynn young-leith) writes: : # Can someone tell me why when Mr. Cramer spouts on about homosexuals, : # he only addresses homosexual men, and never, in any post I've read, : # addressed lesbian"
+      },
+      {
+        "id": "comp.graphics/39618",
+        "label": "comp.graphics",
+        "dominant_cluster": 5,
+        "max_prob": 0.9956151247024536,
+        "entropy": 0.02826821058988571,
+        "top_clusters": [
+          {
+            "cluster": 5,
+            "prob": 0.9956151247024536
+          },
+          {
+            "cluster": 4,
+            "prob": 0.004404044710099697
+          },
+          {
+            "cluster": 8,
+            "prob": 0.0
+          }
+        ],
+        "snippet": "Hello, the subject line says it all: I'm looking for a TGA file viewer for the ATI Ultra + card. It should support the true color modes, of course. If someone knows where to find one via FTP, please let me know. thanx Oliver Klimek"
+      },
+      {
+        "id": "comp.sys.ibm.pc.hardware/60876",
+        "label": "comp.sys.ibm.pc.hardware",
+        "dominant_cluster": 5,
+        "max_prob": 0.9970136880874634,
+        "entropy": 0.020308291539549828,
+        "top_clusters": [
+          {
+            "cluster": 5,
+            "prob": 0.9970136880874634
+          },
+          {
+            "cluster": 4,
+            "prob": 0.0029790163971483707
+          },
+          {
+            "cluster": 8,
+            "prob": 0.0
+          }
+        ],
+        "snippet": "I need to be able to cause a beep, but without using any interrupt routines, as I cannot use the BIOS. I believe that the PIC might have something to do with it, but I'm having troubles deciphering the information I have on it to figure out how to program it! I'm programming all "
+      },
+      {
+        "id": "sci.med/59595",
+        "label": "sci.med",
+        "dominant_cluster": 1,
+        "max_prob": 0.9973180890083313,
+        "entropy": 0.018659807741642,
+        "top_clusters": [
+          {
+            "cluster": 1,
+            "prob": 0.9973180890083313
+          },
+          {
+            "cluster": 3,
+            "prob": 0.00270251021720469
+          },
+          {
+            "cluster": 8,
+            "prob": 0.0
+          }
+        ],
+        "snippet": "In article <C6BotF.137@r-node.hub.org> taob@r-node.hub.org (Brian Tao) writes: Here we go again. ======================================================================== U UK K UNIVERSITY GARY W. GREGORY U UK K OF KENTUCKY GWGREG01@UKCC.UKY.EDU U UKKK ____________________________"
+      },
+      {
+        "id": "misc.forsale/76516",
+        "label": "misc.forsale",
+        "dominant_cluster": 4,
+        "max_prob": 0.9983534216880798,
+        "entropy": 0.012355352751910686,
+        "top_clusters": [
+          {
+            "cluster": 4,
+            "prob": 0.9983534216880798
+          },
+          {
+            "cluster": 7,
+            "prob": 0.0016756728291511536
+          },
+          {
+            "cluster": 5,
+            "prob": 2.599553594281671e-33
+          }
+        ],
+        "snippet": "FOR SALE: IBM-compatible XT personal computer (DOS) Brand: Acer Age: 4.5 years Specs: 640K RAM 20 meg hard drive 5 -1/4 floppy drive Color monitor 2400 baud USRobotics internal modem Bundled with loads of software: word processing, communications, spreadsheet, games. A good compu"
+      },
+      {
+        "id": "talk.politics.guns/54235",
+        "label": "talk.politics.guns",
+        "dominant_cluster": 7,
+        "max_prob": 0.9984143972396851,
+        "entropy": 0.011729303747415543,
+        "top_clusters": [
+          {
+            "cluster": 7,
+            "prob": 0.9984143972396851
+          },
+          {
+            "cluster": 3,
+            "prob": 0.0015714609762653708
+          },
+          {
+            "cluster": 2,
+            "prob": 5.845563941450232e-36
+          }
+        ],
+        "snippet": "In article <81930415084418/0005111312NA3EM@mcimail.com> 0005111312@mcimail.com (Peter Nesbitt) writes: . . . Are you sure about this? I'm currently looking at a copy of last Thursday's SF Chronicle and there is the typical one column Traders ad on page C7 in the Sports section. N"
+      },
+      {
+        "id": "comp.graphics/38436",
+        "label": "comp.graphics",
+        "dominant_cluster": 4,
+        "max_prob": 0.9987800717353821,
+        "entropy": 0.009252260439097881,
+        "top_clusters": [
+          {
+            "cluster": 4,
+            "prob": 0.9987800717353821
+          },
+          {
+            "cluster": 5,
+            "prob": 0.0011934631038457155
+          },
+          {
+            "cluster": 8,
+            "prob": 0.0
+          }
+        ],
+        "snippet": "In <1qlobb$p5a@tuegate.tue.nl> renew@blade.stack.urc.tue.nl (Rene Walter) writes: [Most info regarding dangers of reading from Floppy disks omitted] In all fairness, how many people do you know personally who read images from Floppy drives? I haven't tried it with JPEGs, but I do"
+      },
+      {
+        "id": "comp.graphics/38674",
+        "label": "comp.graphics",
+        "dominant_cluster": 4,
+        "max_prob": 0.9989019632339478,
+        "entropy": 0.008642846718430519,
+        "top_clusters": [
+          {
+            "cluster": 4,
+            "prob": 0.9989019632339478
+          },
+          {
+            "cluster": 5,
+            "prob": 0.0011089048348367214
+          },
+          {
+            "cluster": 8,
+            "prob": 0.0
+          }
+        ],
+        "snippet": "Hallo POV-Renderers ! I've got a BocaX3 Card. Now I try to get POV displaying True Colors while rendering. I've tried most of the options and UNIVESA-Driver but what happens isn't correct. Can anybody help me ?"
+      },
+      {
+        "id": "talk.religion.misc/83642",
+        "label": "talk.religion.misc",
+        "dominant_cluster": 9,
+        "max_prob": 0.998962938785553,
+        "entropy": 0.00818317849189043,
+        "top_clusters": [
+          {
+            "cluster": 9,
+            "prob": 0.998962938785553
+          },
+          {
+            "cluster": 3,
+            "prob": 0.0010405759094282985
+          },
+          {
+            "cluster": 2,
+            "prob": 2.151979656857479e-37
+          }
+        ],
+        "snippet": "In article <79615@cup.portal.com> Thyagi@cup.portal.com (Thyagi Morgoth NagaSiva) writes: Up to this point, I was kinda hoping that this was a joke. Still, it would make a great premise for a bad syndicated TV show- \"These are the adventures of the Oriental Templars... dedicated "
+      },
+      {
+        "id": "rec.motorcycles/103176",
+        "label": "rec.motorcycles",
+        "dominant_cluster": 3,
+        "max_prob": 0.998962938785553,
+        "entropy": 0.008257340639829636,
+        "top_clusters": [
+          {
+            "cluster": 3,
+            "prob": 0.998962938785553
+          },
+          {
+            "cluster": 0,
+            "prob": 0.0010532274609431624
+          },
+          {
+            "cluster": 1,
+            "prob": 1.9219183986203305e-38
+          }
+        ],
+        "snippet": "In article <C4zqEL.E9B@ms.uky.edu> amir@ms.uky.edu (Amir Sadr) writes: I'm not sure about the helmet but for chin questions you might want to write to a: Jay Leno c/o Tonight Show Burbank Calif. Good luck. =========================================================================="
+      },
+      {
+        "id": "misc.forsale/76449",
+        "label": "misc.forsale",
+        "dominant_cluster": 3,
+        "max_prob": 0.9990238547325134,
+        "entropy": 0.007763175293803215,
+        "top_clusters": [
+          {
+            "cluster": 3,
+            "prob": 0.9990238547325134
+          },
+          {
+            "cluster": 7,
+            "prob": 0.0009796808008104563
+          },
+          {
+            "cluster": 5,
+            "prob": 1.7992538878316847e-37
+          }
+        ],
+        "snippet": "We have an copy of the book, new, not read. $20 plus S/H. DC if you can pickup. (The book has over 1100 pages and is quite heavy.) Feng -- The opinions expressed are not necessarily those of the University of North Carolina at Chapel Hill, the Campus Office for Information Techno"
+      },
+      {
+        "id": "comp.sys.mac.hardware/51813",
+        "label": "comp.sys.mac.hardware",
+        "dominant_cluster": 0,
+        "max_prob": 0.9990238547325134,
+        "entropy": 0.007588510867208242,
+        "top_clusters": [
+          {
+            "cluster": 0,
+            "prob": 0.9990238547325134
+          },
+          {
+            "cluster": 4,
+            "prob": 0.0009502929751761258
+          },
+          {
+            "cluster": 8,
+            "prob": 0.0
+          }
+        ],
+        "snippet": "petere@tesla.mitre.org (Peter D. Engels) writes: You're correct, except that's Quadra 800 not Centris 800. -Hades"
+      }
+    ]
+  }
+}

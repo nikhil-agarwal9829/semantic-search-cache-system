@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local HF/torch caches (Windows)
+.cache/
+
+# Raw dataset downloads/unpacked corpus (keeps repo small)
+twenty+newsgroups/
+
+# Optional: if you don't want to version large generated artifacts, uncomment:
+# data/
+
