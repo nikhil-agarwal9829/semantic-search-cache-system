@@ -120,3 +120,12 @@ docker run -p 8000:8000 trademarkia-semantic-search
 Then open:
 - `http://127.0.0.1:8000/docs`
 
+<img width="1894" height="819" alt="image" src="https://github.com/user-attachments/assets/e5252b05-dabb-4e50-b7f5-e71dba25afb7" />
+<img width="1812" height="859" alt="image" src="https://github.com/user-attachments/assets/98d23c13-84b8-49dd-a54c-307f06f087e4" />
+<img width="1817" height="853" alt="image" src="https://github.com/user-attachments/assets/7e0c49b1-fd08-44fe-a5a5-f69b7033d24e" />
+<img width="1839" height="837" alt="image" src="https://github.com/user-attachments/assets/9375e30e-3dbd-49f1-a9c1-b3b6528383ed" />
+
+
+
+
+
